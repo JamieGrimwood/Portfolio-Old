@@ -50,6 +50,11 @@ export default function LatestCode({ repositories }) {
             <GithubRepoCard latestRepo={latestRepo} key="idx" />
           ))}
       </div>
+      <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-40">
+        <h1 className="font-bold text-gray-500 my-30 md:my-30 md:text-white dark:text-gray-600 text-center lg:text-left">
+          This is a little bit broken and shows my private projects. This will be fixed soon.
+        </h1>
+      </div>
     </section>
   );
 }

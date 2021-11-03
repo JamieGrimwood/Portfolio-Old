@@ -29,7 +29,7 @@ const userData = {
         },
         {
             title: "RoboPanel",
-            link: "https://robopanel",
+            link: "https://robopanel.io",
             imgUrl: "/robopanel.png",
         },
     ],
